@@ -1,0 +1,23 @@
+{
+  "name": "cassandradatabase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --require dotenv/config index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cassandra-driver": "^4.6.3",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2"
+  },
+  "devDependencies": {
+    "dotenv": "^14.3.2",
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
+}
